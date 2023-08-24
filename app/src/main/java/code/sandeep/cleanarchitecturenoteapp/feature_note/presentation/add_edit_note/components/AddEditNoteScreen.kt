@@ -52,13 +52,11 @@ fun AddEditNoteScreen(
                     scaffoldState.snackbarHostState.showSnackbar(
                         message = event.message
                     )
-
                 }
                 is AddEditViewModel.UiEvent.SaveNote ->{
                     navController.navigateUp()
                 }
             }
-
         }
     }
 
@@ -138,8 +136,6 @@ fun AddEditNoteScreen(
                 textStyle = MaterialTheme.typography.body1,
                 modifier = Modifier.fillMaxHeight()
             )
-
         }
     }
-
 }

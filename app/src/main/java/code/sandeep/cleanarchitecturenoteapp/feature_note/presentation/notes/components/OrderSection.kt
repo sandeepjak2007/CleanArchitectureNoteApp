@@ -42,5 +42,4 @@ fun OrderSection(
                 onSelect = { onOrderChange(noteOrder.copy(OrderType.Descending)) })
         }
     }
-
 }
